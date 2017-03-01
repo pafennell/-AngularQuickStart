@@ -1,0 +1,1 @@
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\AngularQuickStart\Api\obj\Debug\Api.csprojResolveAssemblyReference.cache

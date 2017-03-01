@@ -1,0 +1,9 @@
+D:\Projects\AngularEX\DAL\bin\Debug\DAL.dll
+D:\Projects\AngularEX\DAL\bin\Debug\DAL.pdb
+D:\Projects\AngularEX\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Projects\AngularEX\DAL\obj\Debug\DAL.dll
+D:\Projects\AngularEX\DAL\obj\Debug\DAL.pdb
+D:\Projects\AngularEX\AngularEX\DAL\bin\Debug\DAL.dll
+D:\Projects\AngularEX\AngularEX\DAL\bin\Debug\DAL.pdb
+D:\Projects\AngularEX\AngularEX\DAL\obj\Debug\DAL.dll
+D:\Projects\AngularEX\AngularEX\DAL\obj\Debug\DAL.pdb

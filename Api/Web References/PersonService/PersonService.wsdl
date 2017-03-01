@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetPeople">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPeopleResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getPerson">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getPersonResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="addPerson">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="person" type="tns:Person" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Person">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="County" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Firstname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PersonID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Zip" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="addPersonResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="VerifyUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerifyUserResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetPeopleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPeople" />
+  </wsdl:message>
+  <wsdl:message name="GetPeopleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPeopleResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPersonSoapIn">
+    <wsdl:part name="parameters" element="tns:getPerson" />
+  </wsdl:message>
+  <wsdl:message name="getPersonSoapOut">
+    <wsdl:part name="parameters" element="tns:getPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="addPersonSoapIn">
+    <wsdl:part name="parameters" element="tns:addPerson" />
+  </wsdl:message>
+  <wsdl:message name="addPersonSoapOut">
+    <wsdl:part name="parameters" element="tns:addPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerifyUserSoapIn">
+    <wsdl:part name="parameters" element="tns:VerifyUser" />
+  </wsdl:message>
+  <wsdl:message name="VerifyUserSoapOut">
+    <wsdl:part name="parameters" element="tns:VerifyUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPeopleHttpGetIn" />
+  <wsdl:message name="GetPeopleHttpGetOut" />
+  <wsdl:message name="getPersonHttpGetIn">
+    <wsdl:part name="ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getPersonHttpGetOut" />
+  <wsdl:message name="VerifyUserHttpGetIn">
+    <wsdl:part name="Username" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VerifyUserHttpGetOut" />
+  <wsdl:message name="GetPeopleHttpPostIn" />
+  <wsdl:message name="GetPeopleHttpPostOut" />
+  <wsdl:message name="getPersonHttpPostIn">
+    <wsdl:part name="ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getPersonHttpPostOut" />
+  <wsdl:message name="VerifyUserHttpPostIn">
+    <wsdl:part name="Username" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VerifyUserHttpPostOut" />
+  <wsdl:portType name="PersonServiceSoap">
+    <wsdl:operation name="GetPeople">
+      <wsdl:input message="tns:GetPeopleSoapIn" />
+      <wsdl:output message="tns:GetPeopleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getPerson">
+      <wsdl:input message="tns:getPersonSoapIn" />
+      <wsdl:output message="tns:getPersonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addPerson">
+      <wsdl:input message="tns:addPersonSoapIn" />
+      <wsdl:output message="tns:addPersonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyUser">
+      <wsdl:input message="tns:VerifyUserSoapIn" />
+      <wsdl:output message="tns:VerifyUserSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PersonServiceHttpGet">
+    <wsdl:operation name="GetPeople">
+      <wsdl:input message="tns:GetPeopleHttpGetIn" />
+      <wsdl:output message="tns:GetPeopleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getPerson">
+      <wsdl:input message="tns:getPersonHttpGetIn" />
+      <wsdl:output message="tns:getPersonHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyUser">
+      <wsdl:input message="tns:VerifyUserHttpGetIn" />
+      <wsdl:output message="tns:VerifyUserHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PersonServiceHttpPost">
+    <wsdl:operation name="GetPeople">
+      <wsdl:input message="tns:GetPeopleHttpPostIn" />
+      <wsdl:output message="tns:GetPeopleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getPerson">
+      <wsdl:input message="tns:getPersonHttpPostIn" />
+      <wsdl:output message="tns:getPersonHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyUser">
+      <wsdl:input message="tns:VerifyUserHttpPostIn" />
+      <wsdl:output message="tns:VerifyUserHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PersonServiceSoap" type="tns:PersonServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPeople">
+      <soap:operation soapAction="http://tempuri.org/GetPeople" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPerson">
+      <soap:operation soapAction="http://tempuri.org/getPerson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addPerson">
+      <soap:operation soapAction="http://tempuri.org/addPerson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyUser">
+      <soap:operation soapAction="http://tempuri.org/VerifyUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PersonServiceSoap12" type="tns:PersonServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPeople">
+      <soap12:operation soapAction="http://tempuri.org/GetPeople" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPerson">
+      <soap12:operation soapAction="http://tempuri.org/getPerson" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addPerson">
+      <soap12:operation soapAction="http://tempuri.org/addPerson" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyUser">
+      <soap12:operation soapAction="http://tempuri.org/VerifyUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PersonServiceHttpGet" type="tns:PersonServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetPeople">
+      <http:operation location="/GetPeople" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getPerson">
+      <http:operation location="/getPerson" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyUser">
+      <http:operation location="/VerifyUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PersonServiceHttpPost" type="tns:PersonServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetPeople">
+      <http:operation location="/GetPeople" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="getPerson">
+      <http:operation location="/getPerson" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyUser">
+      <http:operation location="/VerifyUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PersonService">
+    <wsdl:port name="PersonServiceSoap" binding="tns:PersonServiceSoap">
+      <soap:address location="http://localhost:4080/Services/PersonService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PersonServiceSoap12" binding="tns:PersonServiceSoap12">
+      <soap12:address location="http://localhost:4080/Services/PersonService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PersonServiceHttpGet" binding="tns:PersonServiceHttpGet">
+      <http:address location="http://localhost:4080/Services/PersonService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PersonServiceHttpPost" binding="tns:PersonServiceHttpPost">
+      <http:address location="http://localhost:4080/Services/PersonService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
