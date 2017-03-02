@@ -14,13 +14,15 @@ export class PersonService
 
     getPerson()
     {
-<<<<<<< HEAD
-        return this.http.get('http://localhost:2744/api/Person/')
-            .map((res: Response) => res.json());
+        return this.http.get('http://localhost:2744/api/Person')
+            .map((response: Response) => <any[]>response.json())
+            .do(data => console.log('All: ' + JSON.stringify(data)))
+            .catch(this.handleError)
+            ;
            
-=======
-        return this.http.get('http://localhost:4080/Services/PersonService.asmx/GetPeople')
-            .map(res => res.json().catch((error: any) => Observable.throw(error.json().error || 'Server error'));     
->>>>>>> e23eb2371dd21d9e89e36721a8f3a1f64c083498
+    }
+    private handleError(error: Response) {
+        console.error(error);
+        return Observable.throw(error.json().error || 'Server error');
     }
 }

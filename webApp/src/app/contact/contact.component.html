@@ -1,6 +1,5 @@
 ﻿<h6> Contact </h6>
-<ul>
-    <li *ngFor="let p of person">
-        {{p.Firstname}} {{p.Lastname}}  {{p.Address}} {{p.City}} {{p.County}}  {{p.Email}}  {{p.Zip}} {{p.PersonID}}
-    </li>
-</ul>
+
+    <div *ngFor="let p of person">
+        {{p.Address}} {{p.City}} {{p.County}} {{p.Email}} {{p.Firstname}} {{p.LastName}} {{p.PersonID}} {{p.State}} {{p.Zip}}
+    </div>

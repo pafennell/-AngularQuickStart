@@ -13,10 +13,9 @@ export class ContactComponent {
     person: Person [] ;
 
     constructor(private service: PersonService) { }
-
-    getPerson(){
-        this.service.getPerson().subscribe(person => this.person = person);    
-        console.log(this.person);       
+    ngOnInit() {
+        this.service.getPerson().subscribe(person => this.person = person),
+            () => console.log("getAllItems() complete from init");
     }
 }
 

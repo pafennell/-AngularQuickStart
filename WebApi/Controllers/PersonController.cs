@@ -15,7 +15,7 @@ namespace WebApi.Controllers
         private List<Person> list = new List<Person>();
 
         // GET: api/Person
-        public List<Person> Get()
+        public IEnumerable<Person> Get()
         {
             List<Person> personList = new List<Person>();
             var connectionString = ConfigurationManager.ConnectionStrings["Connection"].ConnectionString;
