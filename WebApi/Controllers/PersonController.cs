@@ -48,7 +48,7 @@ namespace WebApi.Controllers
             return "value";
         }
 
-        // POST api/<controller>
+        // POST api/Person
         public void Post([FromBody]string value)
         {
         }
