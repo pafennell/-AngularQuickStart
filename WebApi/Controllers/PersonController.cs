@@ -49,6 +49,8 @@ namespace WebApi.Controllers
         }
 
         // POST api/Person
+        [HttpPost]
+        [Route("api/Person/AddUser")]
         public void Post([FromBody]string value)
         {
         }

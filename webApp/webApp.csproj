@@ -150,6 +150,7 @@
     <Content Include="src\app\navbar\navbar.component.html" />
     <Content Include="src\app\navbar\navbar.component.js" />
     <Content Include="src\app\navbar\navbarcomponent..js" />
+    <Content Include="src\app\register\register.component.html" />
     <Content Include="src\app\search\search.component.js" />
     <Content Include="src\app\search\search.js" />
     <Content Include="src\app\services\person.service.js" />
@@ -214,8 +215,10 @@
     <TypeScriptCompile Include="src\app\app.Person.ts" />
     <TypeScriptCompile Include="src\app\login\login.component.ts" />
     <TypeScriptCompile Include="src\app\navbar\navbar.component.ts" />
+    <TypeScriptCompile Include="src\app\register\register.component.ts" />
     <TypeScriptCompile Include="src\app\search\search.component.ts" />
     <TypeScriptCompile Include="src\app\services\person.service.ts" />
+    <TypeScriptCompile Include="src\app\services\register.service.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>

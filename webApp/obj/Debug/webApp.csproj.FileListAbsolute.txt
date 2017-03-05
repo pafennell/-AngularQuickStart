@@ -97,3 +97,46 @@ D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\Microsoft.AI.Web.xml
 D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\Microsoft.AI.WindowsServer.xml
 D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\Microsoft.ApplicationInsights.xml
 D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\ApplicationInsights.config
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\csc.exe
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\vbc.exe
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\webApp.dll.config
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\webApp.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\webApp.pdb
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\DAL.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.Web.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Newtonsoft.Json.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\System.Net.Http.Formatting.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\System.Web.Http.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\System.Web.Http.WebHost.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\DAL.pdb
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.Web.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\Newtonsoft.Json.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\System.Net.Http.Formatting.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\System.Web.Http.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\bin\System.Web.Http.WebHost.xml
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\obj\Debug\webApp.csprojResolveAssemblyReference.cache
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\obj\Debug\webApp.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\obj\Debug\webApp.pdb

@@ -12,3 +12,8 @@ D:\Aungual_QuickStart\-AngularQuickStart\DAL\bin\Debug\DAL.pdb
 D:\Aungual_QuickStart\-AngularQuickStart\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\Aungual_QuickStart\-AngularQuickStart\DAL\obj\Debug\DAL.dll
 D:\Aungual_QuickStart\-AngularQuickStart\DAL\obj\Debug\DAL.pdb
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\DAL\bin\Debug\DAL.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\DAL\bin\Debug\DAL.pdb
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\DAL\obj\Debug\DAL.dll
+C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\DAL\obj\Debug\DAL.pdb

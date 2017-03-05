@@ -14,7 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SearchComponent } from './search/search.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
-
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
     imports: [BrowserModule, FormsModule,  AppRoutingModule, HttpModule,],
@@ -25,7 +25,8 @@ import { HomeComponent } from './home/home.component';
         ContactComponent,
         SearchComponent,
         LoginComponent,
-        HomeComponent
+        HomeComponent,
+        RegisterComponent
           ],
   bootstrap:    [ AppComponent ]
 })
