@@ -151,9 +151,11 @@
     <Content Include="src\app\navbar\navbar.component.js" />
     <Content Include="src\app\navbar\navbarcomponent..js" />
     <Content Include="src\app\register\register.component.html" />
+    <Content Include="src\app\register\register.component.js" />
     <Content Include="src\app\search\search.component.js" />
     <Content Include="src\app\search\search.js" />
     <Content Include="src\app\services\person.service.js" />
+    <Content Include="src\app\services\register.service.js" />
     <Content Include="src\favicon.ico" />
     <Content Include="src\index.html" />
     <Content Include="src\main.js" />
@@ -183,6 +185,8 @@
     <Content Include="src\app\services\person.service.js.map" />
     <Content Include="src\app\app.js.map" />
     <Content Include="src\app\app.routing.js.map" />
+    <Content Include="src\app\services\register.service.js.map" />
+    <Content Include="src\app\register\register.component.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

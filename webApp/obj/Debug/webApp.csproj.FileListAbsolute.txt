@@ -140,3 +140,13 @@ C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp
 C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\obj\Debug\webApp.csprojResolveAssemblyReference.cache
 C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\obj\Debug\webApp.dll
 C:\Users\patrick\Documents\Visual Studio 2015\Projects\Angular_QuickStart\webApp\obj\Debug\webApp.pdb
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\DAL.dll
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\Newtonsoft.Json.dll
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\System.Net.Http.Formatting.dll
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\System.Web.Http.dll
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\System.Web.Http.WebHost.dll
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\DAL.pdb
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\Newtonsoft.Json.xml
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\System.Net.Http.Formatting.xml
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\System.Web.Http.xml
+D:\Aungual_QuickStart\-AngularQuickStart\webApp\bin\System.Web.Http.WebHost.xml

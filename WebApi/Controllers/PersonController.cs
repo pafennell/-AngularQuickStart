@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
+using System.Net;
+using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
 
 namespace WebApi.Controllers
@@ -51,8 +54,13 @@ namespace WebApi.Controllers
         // POST api/Person
         [HttpPost]
         [Route("api/Person/AddUser")]
-        public void Post([FromBody]string value)
+        public async Task<HttpResponseMessage> Post(HttpRequestMessage request)
         {
+            var jsonString = await request.Content.ReadAsStringAsync();
+
+            // Do something with the string 
+
+            return new HttpResponseMessage(HttpStatusCode.Created);
         }
 
         // PUT api/<controller>/5
